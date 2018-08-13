@@ -12,7 +12,7 @@ Geo-velocity functions allows to authenticate the user by considering the distan
 
 ## Getting started
 
-  1. Copy the jar file in the target ditectory to the <IS_HOME>/repository/components/dropins folder.
+  1. Copy the jar file in the target directory to the <IS_HOME>/repository/components/dropins folder.
   2. Start the wso2 identity server
   3. Create a new service provider in Identity Server with the name “saml2-web-app-dispatch.com”. 
   4. You can find more information about creating new service provider [here](https://docs.wso2.com/display/IS560/Adding+and+Configuring+a+Service+Provider). 
