@@ -21,8 +21,8 @@ Geo-velocity functions allows to authenticate the user by considering the distan
 					- Assertion Consumer URLs - http://localhost.com:8080/saml2-web-app-dispatch.com/consumer 
 					- Keep the other default settings as it is and save the configuration.
 6. Add two authentication steps .
-7. Update  one of the script as follows
-					7.1. Script to authenticate user by geo-velocity
+7. Update  one of the script as follows                                                                                                        .
+7.1. Script to authenticate user by geo-velocity
 ```sh
 function onInitialRequest(context) {
   	
