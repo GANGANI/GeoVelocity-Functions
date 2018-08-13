@@ -1,0 +1,41 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1534137923770
+Build-Jdk: 1.8.0_171
+Built-By: gangani
+Bundle-Description: WSO2 is an open source application development softw
+ are company focused on providing service-oriented        architecture s
+ olutions for professional developers.
+Bundle-DocURL: http://www.wso2.org/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: org.wso2.carbon.identity.conditional.auth.functions.geovelo
+ city
+Bundle-SymbolicName: org.wso2.carbon.identity.conditional.auth.functions
+ .geovelocity
+Bundle-Vendor: WSO2
+Bundle-Version: 0.1.19.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.wso2.carbon.identity.conditional.auth.functions.geov
+ elocity;version="0.1.19.SNAPSHOT"
+Import-Package: org.apache.commons.logging;version="[1.2,2)",org.osgi.se
+ rvice.component;version="[1.2,2)",org.wso2.carbon.identity.application.
+ authentication.framework;version="[5.12,6)",org.wso2.carbon.registry.co
+ re.service;version="[1.0,2)",org.wso2.carbon.user.core.service;version=
+ "[4.4,5)",org.wso2.carbon.user.core;version="[4.4,5)",org.wso2.carbon.i
+ dentity.application.authentication.framework.context;version="[5.12,6)"
+ ,org.wso2.carbon.identity.application.authentication.framework.util;ver
+ sion="[5.12,6)",org.wso2.carbon.identity.application.authentication.fra
+ mework.model;version="[5.12,6)",org.osgi.service.component.annotations;
+ version="[1.2,2)",org.wso2.carbon.identity.application.authentication.f
+ ramework.config.model.graph;version="[5.12,6)",org.apache.commons.colle
+ ctions;version="[3.2,4)",org.wso2.carbon.identity.application.authentic
+ ation.framework.config.model.graph.js;version="[5.12,6)",org.wso2.carbo
+ n;version="[4.4,5)",org.wso2.carbon.identity.application.authentication
+ .framework.exception;version="[5.12,6)",org.wso2.carbon.core.util;versi
+ on="[4.4,5)",org.apache.commons.lang;version="[2.6,3)",org.wso2.carbon.
+ identity.application.authentication.framework.config.model;version="[5.
+ 12,6)"
+SCM-Revision: b980fbda075e9ca73a67a0b4ef2c39aa3920fcd7
+Service-Component: OSGI-INF/org.wso2.carbon.identity.conditional.auth.fu
+ nctions.geovelocity.internal.GeovelocityFunctionsServiceComponent.xml
+Tool: Bnd-2.1.0.20130426-122213
