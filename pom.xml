@@ -19,25 +19,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-
-    <parent>
-        <groupId>org.wso2</groupId>
-        <artifactId>wso2</artifactId>
-        <version>1</version>
-        <groupId>org.wso2.carbon.identity.conditional.auth.functions</groupId>
-        <artifactId>identity-conditional-auth-functions</artifactId>
-        <version>4.4.11</version>
-        <relativePath>../../pom.xml</relativePath>
-    </parent>
-
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.wso2.carbon.identity.conditional.auth.functions</groupId>
+
+
+    <groupId>org.wso2.carbon</groupId>
     <artifactId>org.wso2.carbon.identity.conditional.auth.functions.geovelocity</artifactId>
-    <version>1.0.0</version>
+    <version>4.4.11</version>
 
     <name>Conditional Authentication - Geo-velocity Related Functions</name>
     <packaging>bundle</packaging>
-    
+
     <dependencies>
         <dependency>
             <groupId>org.powermock</groupId>
@@ -53,27 +44,32 @@
         <dependency>
             <groupId>org.wso2.carbon</groupId>
             <artifactId>org.wso2.carbon.core</artifactId>
-            <version>${carbon.kernel.version}</version>
+             <version>${carbon.kernel.version}</version>
         </dependency>
         <dependency>
             <groupId>org.wso2.carbon</groupId>
             <artifactId>org.wso2.carbon.logging</artifactId>
             <version>${carbon.kernel.version}</version>
         </dependency>
+       <!--<dependency>
+            <groupId>org.wso2.carbon</groupId>
+            <artifactId>org.wso2.carbon.user.core</artifactId>
+            <version>3.0.0</version>
+        </dependency>-->
+        <dependency>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+            <version>1.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.osgi</groupId>
+            <artifactId>org.eclipse.osgi.services</artifactId>
+            <version>3.3.100.v20130513-1956</version>
+        </dependency>
         <dependency>
             <groupId>org.wso2.carbon.identity.framework</groupId>
             <artifactId>org.wso2.carbon.identity.application.authentication.framework</artifactId>
-            <version>${carbon.identity.framework.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.wso2.carbon</groupId>
-            <artifactId>org.wso2.carbon.registry.core</artifactId>
-            <version>${carbon.kernel.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.wso2.carbon</groupId>
-            <artifactId>org.wso2.carbon.user.core</artifactId>
-            <version>${carbon.kernel.version}</version>
+            <version>5.12.93</version>
         </dependency>
     </dependencies>
 
@@ -115,43 +111,6 @@
 
     </repositories>
 
-    <pluginRepositories>
-        <pluginRepository>
-            <id>wso2.releases</id>
-            <name>WSO2 internal Repository</name>
-            <url>http://maven.wso2.org/nexus/content/repositories/releases/</url>
-            <releases>
-                <enabled>true</enabled>
-                <updatePolicy>daily</updatePolicy>
-                <checksumPolicy>ignore</checksumPolicy>
-            </releases>
-        </pluginRepository>
-
-        <pluginRepository>
-            <id>wso2.snapshots</id>
-            <name>WSO2 Snapshot Repository</name>
-            <url>http://maven.wso2.org/nexus/content/repositories/snapshots/</url>
-            <snapshots>
-                <enabled>true</enabled>
-                <updatePolicy>daily</updatePolicy>
-            </snapshots>
-            <releases>
-                <enabled>false</enabled>
-            </releases>
-        </pluginRepository>
-        <pluginRepository>
-            <id>wso2-nexus</id>
-            <name>WSO2 internal Repository</name>
-            <url>http://maven.wso2.org/nexus/content/groups/wso2-public/</url>
-            <releases>
-                <enabled>true</enabled>
-                <updatePolicy>daily</updatePolicy>
-                <checksumPolicy>ignore</checksumPolicy>
-            </releases>
-        </pluginRepository>
-    </pluginRepositories>
-
-
     <build>
         <plugins>
             <plugin>
@@ -173,11 +132,28 @@
                         </Private-Package>
                         <Export-Package>
                             !org.wso2.carbon.identity.conditional.auth.functions.geovelocity.internal,
-                            org.wso2.carbon.identity.conditional.auth.functions.geovelocity.*
+                            org.wso2.carbon.identity.conditional.auth.functions.geovelocity
                         </Export-Package>
-                        <Import-Package>*
+                        <Import-Package>
+                            org.apache.commons.lang,
+                            org.apache.commons.logging,
+                            org.osgi.service.component,
+                            org.osgi.service.component.annotations,
+                            org.wso2.carbon,
+                            org.wso2.carbon.core.util,
+                            org.wso2.carbon.identity.application.authentication.framework,
+                            org.wso2.carbon.identity.application.authentication.framework.util,
+                            org.wso2.carbon.identity.application.authentication.framework.exception,
+                            org.wso2.carbon.identity.application.authentication.framework.model,
+                            org.wso2.carbon.identity.application.authentication.framework.config.model.graph.js,
+                            org.wso2.carbon.identity.application.authentication.framework.config.model.graph,
+                            org.wso2.carbon.identity.application.authentication.framework.config.model,
+                            org.wso2.carbon.identity.application.authentication.framework.context,
+                            org.apache.commons.collections,
+                            org.wso2.carbon.registry.core.service,
+                            org.wso2.carbon.user.core,
+                            org.wso2.carbon.user.core.service
                         </Import-Package>
-                        <DynamicImport-package>*</DynamicImport-package>
                     </instructions>
                 </configuration>
             </plugin>
@@ -187,8 +163,8 @@
         <maven.scr.plugin.version>1.24.0</maven.scr.plugin.version>
         <maven.bundle.plugin.version>2.4.0</maven.bundle.plugin.version>
         <commons-lang.wso2.version>2.6.0.wso2v1</commons-lang.wso2.version>
-        <carbon.kernel.version>4.4.32</carbon.kernel.version>
-        <carbon.identity.framework.version>5.12.60</carbon.identity.framework.version>
+        <carbon.kernel.version>4.4.17</carbon.kernel.version>
+        <carbon.identity.framework.version>5.12.93 </carbon.identity.framework.version>
         <mokito.version>1.6.6</mokito.version>
         <carbon.user.core.version.version>3.0.0</carbon.user.core.version.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
