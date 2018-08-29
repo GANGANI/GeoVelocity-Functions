@@ -2,7 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe930dae-c4dd-4332-85f1-eb1634148244" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../org.wso2.carbon.identity.conditional.auth.functions.analytics/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/analytics/GetGeoVelocityFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../org.wso2.carbon.identity.conditional.auth.functions.analytics/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/analytics/GetGeoVelocityFunctionImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/internal/GeovelocityFunctionsServiceComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/internal/GeovelocityFunctionsServiceComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/internal/GeovelocityFunctionsServiceHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/internal/GeovelocityFunctionsServiceHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/DEPENDENCIES" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/DEPENDENCIES" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OSGI-INF/org.wso2.carbon.identity.conditional.auth.functions.geovelocity.internal.GeovelocityFunctionsServiceComponent.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/CheckBrowserFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/CheckBrowserFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/CheckBrowserFunctionImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/CheckBrowserFunctionImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/CheckLocationFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/CheckLocationFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/CheckLocationFunctionImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/CheckLocationFunctionImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/CheckOSFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/CheckOSFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/CheckOSFunctionImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/CheckOSFunctionImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/GetDistanceFuctionImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/GetDistanceFuctionImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/GetDistanceFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/GetDistanceFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/GetVelocityFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/GetVelocityFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/GetVelocityFunctionImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/GetVelocityFunctionImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/internal/GeovelocityFunctionsServiceComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/internal/GeovelocityFunctionsServiceComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/internal/GeovelocityFunctionsServiceHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/internal/GeovelocityFunctionsServiceHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/org.wso2.carbon.identity.conditional.auth.functions.geovelocity-0.1.19-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/DEPENDENCIES" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/META-INF/DEPENDENCIES" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../org.wso2.carbon.identity.conditional.auth.functions.user/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/user/HasRoleFunctionImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../org.wso2.carbon.identity.conditional.auth.functions.user/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/user/HasRoleFunctionImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../org.wso2.carbon.identity.conditional.auth.functions.user/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/user/internal/UserFunctionsServiceComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../org.wso2.carbon.identity.conditional.auth.functions.user/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/user/internal/UserFunctionsServiceComponent.java" afterDir="false" />
     </list>
@@ -25,79 +50,50 @@
     <session id="1367787966">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="12" />
-          <entry key="xml" value="1" />
+          <entry key="class" value="2" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="26" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="12" />
-          <entry key="XML" value="1" />
+          <entry key="CLASS" value="2" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="26" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="18" />
-          <entry key="xml" value="3" />
+          <entry key="java" value="24" />
+          <entry key="xml" value="501" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="18" />
-          <entry key="XML" value="3" />
+          <entry key="JAVA" value="24" />
+          <entry key="XML" value="501" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/CheckLocationFunctionImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="18" column="71" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/CheckOSFunction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="18" column="71" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/CheckOSFunctionImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-124">
+            <state relative-caret-position="60">
               <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/GetDistanceFuctionImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/GetVelocityFunction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="18" column="71" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -105,19 +101,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/GetVelocityFunctionImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="120">
+              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/internal/GeovelocityFunctionsServiceComponent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="71" column="103" selection-start-line="71" selection-start-column="103" selection-end-line="71" selection-end-column="103" />
+            <state relative-caret-position="259">
+              <caret line="49" column="207" selection-start-line="49" selection-start-column="113" selection-end-line="49" selection-end-column="207" />
               <folding>
-                <element signature="e#0#7178#0" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
@@ -125,10 +120,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/GetDistanceFunction.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/CheckBrowserFunctionImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="18" column="71" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
+            <state relative-caret-position="195">
+              <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/wso2/carbon/identity/framework/org.wso2.carbon.identity.application.authentication.framework/5.12.60/org.wso2.carbon.identity.application.authentication.framework-5.12.60.jar!/org/wso2/carbon/identity/application/authentication/framework/JsFunctionRegistry.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/GetVelocityFunction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/CheckBrowserFunction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -136,8 +158,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/internal/GeovelocityFunctionsServiceHolder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="450">
+              <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -145,19 +167,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-64">
-              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+            <state relative-caret-position="-1290">
+              <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org.wso2.carbon.identity.conditional.auth.functions.geovelocity.iml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -171,9 +198,9 @@
         <option value="$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/GetDistanceFuctionImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/GetVelocityFunction.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/GetVelocityFunctionImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/GetDistanceFunction.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/internal/GeovelocityFunctionsServiceHolder.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/internal/GeovelocityFunctionsServiceComponent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/GetDistanceFunction.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
@@ -184,11 +211,22 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="929" />
-    <option name="y" value="42" />
-    <option name="width" value="979" />
-    <option name="height" value="808" />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Conditional Authentication - Geo-velocity Related Functions" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="943" />
+    <option name="y" value="14" />
+    <option name="width" value="977" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -196,6 +234,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -238,19 +278,23 @@
               <item name="geovelocity" type="462c0819:PsiDirectoryNode" />
               <item name="internal" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="org.wso2.carbon.identity.conditional.auth.functions.geovelocity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="org.wso2.carbon.identity.conditional.auth.functions.geovelocity" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../org.wso2.carbon.identity.conditional.auth.functions.user" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535520238638" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -266,6 +310,20 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="5005" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -277,30 +335,57 @@
       <option name="presentableId" value="Default" />
       <updated>1534133841764</updated>
       <workItem from="1534133845566" duration="4164000" />
+      <workItem from="1535449518095" duration="8876000" />
+      <workItem from="1535473110965" duration="18423000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4164000" />
+    <option name="totallyTimeSpent" value="31463000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="929" y="42" width="979" height="808" extended-state="1" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22829582" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26865673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" weight="0.32941177" />
-      <window_info anchor="bottom" id="Terminal" weight="0.23430963" />
-      <window_info anchor="bottom" id="CheckStyle" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.4632353" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39958158" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32941177" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3294979" />
+      <window_info anchor="bottom" id="CheckStyle" order="9" weight="0.3294979" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.4632353" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.03150912" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25262576" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -308,16 +393,23 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32941177" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.9790795" />
+      <window_info anchor="bottom" id="CheckStyle" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.4632353" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -325,86 +417,57 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/internal/GeovelocityFunctionsServiceComponent.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/internal/GeovelocityFunctionsServiceComponent.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/CheckBrowserFunctionImpl.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/CheckBrowserFunctionImpl.java">
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/lang/reflect/Method.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/CheckBrowserFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="18" column="71" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
+        <state relative-caret-position="1527">
+          <caret line="267" selection-start-line="267" selection-end-line="267" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/CheckLocationFunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="18" column="71" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/CheckLocationFunctionImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="18" column="71" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
+        <state relative-caret-position="120">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/CheckOSFunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="18" column="71" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
+        <state relative-caret-position="120">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/GetVelocityFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="18" column="71" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/GetVelocityFunctionImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/GetDistanceFuctionImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/CheckOSFunctionImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-124">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/internal/GeovelocityFunctionsServiceHolder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/CheckLocationFunctionImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/internal/GeovelocityFunctionsServiceComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="71" column="103" selection-start-line="71" selection-start-column="103" selection-end-line="71" selection-end-column="103" />
-          <folding>
-            <element signature="e#0#7178#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -412,15 +475,87 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/GetDistanceFunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="18" column="71" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
+        <state relative-caret-position="120">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/GetDistanceFuctionImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/GetVelocityFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/GetVelocityFunctionImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/CheckBrowserFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/internal/GeovelocityFunctionsServiceHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.wso2.carbon.identity.conditional.auth.functions.geovelocity.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/CheckOSFunctionImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/wso2/carbon/identity/framework/org.wso2.carbon.identity.application.authentication.framework/5.12.60/org.wso2.carbon.identity.application.authentication.framework-5.12.60.jar!/org/wso2/carbon/identity/application/authentication/framework/JsFunctionRegistry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/CheckBrowserFunctionImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-64">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        <state relative-caret-position="-1290">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/conditional/auth/functions/geovelocity/internal/GeovelocityFunctionsServiceComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="49" column="207" selection-start-line="49" selection-start-column="113" selection-end-line="49" selection-end-column="207" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

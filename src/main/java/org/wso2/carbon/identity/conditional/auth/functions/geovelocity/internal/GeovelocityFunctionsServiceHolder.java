@@ -70,4 +70,3 @@ public class GeovelocityFunctionsServiceHolder {
         this.jsFunctionRegistry = jsFunctionRegistry;
     }
 }
-
