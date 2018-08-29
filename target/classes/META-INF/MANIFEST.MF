@@ -1,18 +1,12 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1535519420410
+Bnd-LastModified: 1535521931200
 Build-Jdk: 1.8.0_181
 Built-By: gangani
-Bundle-Description: WSO2 is an open source application development softw
- are company focused on providing service-oriented        architecture s
- olutions for professional developers.
-Bundle-DocURL: http://www.wso2.org/
-Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
 Bundle-ManifestVersion: 2
 Bundle-Name: org.wso2.carbon.identity.conditional.auth.functions.geovelo
  city
 Bundle-SymbolicName: org.wso2.carbon.identity.conditional.auth.functions
  .geovelocity
-Bundle-Vendor: WSO2
 Bundle-Version: 1.0.0
 Created-By: Apache Maven Bundle Plugin
 DynamicImport-package: *

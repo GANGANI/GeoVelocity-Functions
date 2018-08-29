@@ -1,12 +1,12 @@
 org/wso2/carbon/identity/conditional/auth/functions/geovelocity/CheckBrowserFunction.class
+org/wso2/carbon/identity/conditional/auth/functions/geovelocity/GetDistanceFunction.class
+org/wso2/carbon/identity/conditional/auth/functions/geovelocity/CheckOSFunctionImpl.class
+org/wso2/carbon/identity/conditional/auth/functions/geovelocity/GetVelocityFunction.class
+org/wso2/carbon/identity/conditional/auth/functions/geovelocity/CheckLocationFunction.class
+org/wso2/carbon/identity/conditional/auth/functions/geovelocity/GetDistanceFuctionImpl.class
 org/wso2/carbon/identity/conditional/auth/functions/geovelocity/GetVelocityFunctionImpl.class
 org/wso2/carbon/identity/conditional/auth/functions/geovelocity/CheckLocationFunctionImpl.class
 org/wso2/carbon/identity/conditional/auth/functions/geovelocity/internal/GeovelocityFunctionsServiceComponent.class
 org/wso2/carbon/identity/conditional/auth/functions/geovelocity/internal/GeovelocityFunctionsServiceHolder.class
 org/wso2/carbon/identity/conditional/auth/functions/geovelocity/CheckBrowserFunctionImpl.class
 org/wso2/carbon/identity/conditional/auth/functions/geovelocity/CheckOSFunction.class
-org/wso2/carbon/identity/conditional/auth/functions/geovelocity/GetDistanceFunction.class
-org/wso2/carbon/identity/conditional/auth/functions/geovelocity/CheckOSFunctionImpl.class
-org/wso2/carbon/identity/conditional/auth/functions/geovelocity/GetVelocityFunction.class
-org/wso2/carbon/identity/conditional/auth/functions/geovelocity/CheckLocationFunction.class
-org/wso2/carbon/identity/conditional/auth/functions/geovelocity/GetDistanceFuctionImpl.class
